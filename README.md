@@ -53,28 +53,6 @@ All stocks show stationarity with p-values < 0.05, suggesting a stable mean and 
 
 ---
 
-## Project Structure
-
-
-.
-├── data/
-│   ├── economic_events.csv      # Economic data for backtesting
-│   ├── stock_data.csv           # Historical stock data
-├── src/
-│   ├── data_processing.py       # Data loading and cleaning
-│   ├── portfolio_optimization.py # Core optimization models
-│   ├── fractal_analysis.py      # Fractal analysis and stationarity tests
-│   ├── risk_management.py       # Risk management with VIX and thresholds
-│   ├── visualization.py         # Visualization of results
-├── notebooks/
-│   ├── analysis.ipynb           # Interactive exploration notebook
-│   ├── backtesting.ipynb        # Backtesting results and analysis
-├── README.md                    # Project overview and documentation
-└── requirements.txt             # Required packages and libraries
-
-
----
-
 ## Installation
 
 Clone the repository and install the necessary packages:
