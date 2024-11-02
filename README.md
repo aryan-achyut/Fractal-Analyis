@@ -53,36 +53,6 @@ All stocks show stationarity with p-values < 0.05, suggesting a stable mean and 
 
 ---
 
-## Installation
-
-Clone the repository and install the necessary packages:
-
-
-git clone https://github.com/yourusername/AI-Driven-Portfolio-Optimization.git
-cd AI-Driven-Portfolio-Optimization
-pip install -r requirements.txt
-
-
----
-
-## Usage
-
-1. **Data Collection**:
-   - Run `src/data_processing.py` to load and preprocess historical stock and economic event data.
-
-2. **Optimization & Analysis**:
-   - Execute `src/portfolio_optimization.py` to apply portfolio optimization strategies.
-   - Use `src/fractal_analysis.py` for fractal analysis and checking stationarity.
-
-3. **Backtesting & Risk Management**:
-   - Run `src/risk_management.py` to set volatility thresholds and risk limits.
-   - View backtesting results in `notebooks/backtesting.ipynb`.
-
-4. **Visualization**:
-   - Generate performance charts and metrics using `src/visualization.py`.
-
----
-
 ## Results and Insights
 
 1. **High Sharpe Ratios**: Mean-Variance Optimization achieved the highest Sharpe Ratio (1.24), balancing risk and return effectively.
